@@ -1,6 +1,6 @@
 import path from "path";
 import { promises as fs } from "fs";
-
+//Path
 global["__dirname"] = path.dirname(new URL(import.meta.url).pathname);
 
 export default (async (req, res) => {
