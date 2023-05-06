@@ -19,7 +19,6 @@ const server = http.createServer(app);
 //El servidor escucha las peticiones en el puerto 3000, la IP default y un callback que muestra en consola
 //Que se esta escuchando
 server.listen(3000, "0.0.0.0", () => {
-  console.log("👩‍🍳  Servidor escuchando en http://localhost:3000"); 
+  console.log("👩‍🍳 Mi servidor esta escuchando en http://localhost:3000"); 
 });
-
 //Un redireccionamiento es decirle al frontend enviarme a una pagina del mismo dominio
