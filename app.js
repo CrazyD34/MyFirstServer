@@ -47,7 +47,7 @@ export default (async (req, res) => {
             const faviconPath = path.join(__dirname, 'favicon.ico');
             console.log(faviconPath);
             try {
-                const data = await fs.readFile("C:/Users/lower/Desktop/FirstServer/views/favicon.ico");
+                const data = await fs.readFile("C:/Users/lower/Desktop/FirstServer/favicon.ico");
                 res.writeHead(200, { 'Content-Type': 'image/x-icon' });
                 res.end(data);
             } catch (err) {
